@@ -310,7 +310,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/J_S_X_20")
+                                             url="https://t.me/sin_z_commercials")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -328,7 +328,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://t.me/J_S_X_20")
+                                             url="https://t.me/sin_z_commercials")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -363,7 +363,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/TechyTel).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/sin_z_commercials).",
                         disable_web_page_preview=True
                     )
                     return
@@ -385,7 +385,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact me (https://t.me/J_S_X_20).",
+                    text="Something went Wrong. Contact me (https://t.me/sin_z_commercials).",
                     disable_web_page_preview=True
                 )
                 return
@@ -395,8 +395,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/J_S_X_20"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/J_S_X_20")
+                        InlineKeyboardButton("Support Group", url="https://sin_z_commercials"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/sin_z_commercials")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
